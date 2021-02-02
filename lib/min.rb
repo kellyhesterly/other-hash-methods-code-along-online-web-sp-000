@@ -8,4 +8,5 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 def get_the_min(groceries)
+  groceries.min
 end
